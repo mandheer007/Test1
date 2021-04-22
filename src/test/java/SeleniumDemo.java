@@ -39,7 +39,7 @@ public class SeleniumDemo
         WebElement submitBtn = driver.findElement(By.className("radius"));
         submitBtn.click();
         System.out.println("Current URL is:" + driver.getCurrentUrl());
-        Assert.assertTrue(driver.getCurrentUrl().contains("secure"));
+        Assert.assertTrue(driver.getCurrentUrl().contains("secu123re"));
     }
 
     @AfterClass
