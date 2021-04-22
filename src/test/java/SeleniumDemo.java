@@ -40,6 +40,8 @@ public class SeleniumDemo
         submitBtn.click();
         System.out.println("Current URL is:" + driver.getCurrentUrl());
         Assert.assertTrue(driver.getCurrentUrl().contains("secure"));
+        Assert.assertTrue(driver.getCurrentUrl().contains("cure"));
+        Assert.assertTrue(driver.getCurrentUrl().contains("secur"));
     }
 
     @AfterClass
