@@ -42,6 +42,11 @@ public class SeleniumDemo
         Assert.assertTrue(driver.getCurrentUrl().contains("secure"));
         Assert.assertTrue(driver.getCurrentUrl().contains("cure"));
         Assert.assertTrue(driver.getCurrentUrl().contains("secur"));
+        Assert.assertTrue(driver.getCurrentUrl().contains("secur"));
+        Assert.assertTrue(driver.getCurrentUrl().contains("secur"));
+        Assert.assertTrue(driver.getCurrentUrl().contains("secur"));
+        Assert.assertTrue(driver.getCurrentUrl().contains("secur"));
+        Assert.assertTrue(driver.getCurrentUrl().contains("secur"));
     }
 
     @AfterClass
